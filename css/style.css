@@ -71,6 +71,8 @@ body{
     display: flex;
     align-items: center;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .sitenav-item:not(:last-child){
@@ -190,9 +192,63 @@ body{
     height: 1486px;
 }
 
-.bg-hijoma, .bg-terapiya, .bg-zuluk, .bg-tabiy{
-    margin-left: 288px;
+.bg-hijoma {
+    display: flex;
+    width: 864px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 80px;
+} 
+
+.bg-hijoma img{
+    border-radius: 24px;
+}
+
+.bg-terapiya{
+    display: flex;
+    width: 864px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+} 
+
+.bg-terapiya img{
+    border-radius: 24px;
+}
+
+.bg-zuluk{
+    display: flex;
+    width: 864px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+} 
+
+.bg-zuluk img{
+    border-radius: 24px;
+}
+
+.bg-tabiy{
+    display: flex;
+    width: 864px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-tabiy img{
+    border-radius: 24px;
+}
+
+.bg-option{
+    margin-left: 64px;
+}
+
+.bg-option p{
+    font-family: 'Open Sans ' , sans-serif;
 }
 
 .bg-hijoma__info{
@@ -268,15 +324,6 @@ body{
    color: #fff;
    background: #DE2E54;
    opacity: 0.6;
-}
-
-.bg-option{
-    float: right;
-    margin-right: 250px;
-}
-
-.bg-option p{
-    font-family: 'Open Sans', sans-serif;   
 }
 
 .footer-before{
